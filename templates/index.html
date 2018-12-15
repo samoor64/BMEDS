@@ -46,6 +46,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#charts">charts</a>
+            </li>
+            <li class="nav-item">
               <!-- <a class="nav-link js-scroll-trigger" href="#WineGraphs">Wine Graphs</a> -->
               <a class="" href="https://zhisen.github.io/Wine_Price/" target= "_blank" style="PADDING-BOTTOM: 5px">Wine Graphs!</a>
             </li>
@@ -58,9 +61,7 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#charts">charts</a>
-            </li>
+
 
 
           </ul>
@@ -83,7 +84,7 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/brent.jpg" class="img-fluid" alt="">
+                    <img src="{{ url_for('static', filename='img/cool.png')}}" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -102,7 +103,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 mx-auto">
-              <h2 class="section-heading">BRENT STUFF HERE</h2>
+              <h2 class="section-heading">Wine Charts</h2>
               <!-- <p>Our app is available on any mobile device! Download now to get started!</p> -->
               <div class="">
                 <!-- <a class="badge-link" href="#"><img src="{{ url_for('static', filename='img/Average_Points_per_Grape_Type.png')}}" alt="" style="max-height: 100%; max-width: 100%"></a> -->
@@ -130,7 +131,6 @@
 
               <!-- Carousel things -->
               <div class="container">
-                  <h2>Carousel Example</h2>  
                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -171,21 +171,13 @@
                     </a>
                   </div>
                 </div>
-                 
-
-              <!-- <a class="badge-link" href="#"><img src="{{ url_for('static', filename='img/1stSlide.PNG')}}" alt="" style="max-height: 100px; max-width: 100px"></a>
-              <a class="badge-link" href="#"><img src="{{ url_for('static', filename='img/2ndSlide.PNG')}}" alt="" style="max-height: 100px; max-width: 100px"></a>
-              <a class="badge-link" href="#"><img src="{{ url_for('static', filename='img/3rdSlide.PNG')}}" alt="" style="max-height: 100px; max-width: 100px"></a>
-              <a class="badge-link" href="#"><img src="{{ url_for('static', filename='img/fourthSlide.PNG')}}" alt="" style="max-height: 100px; max-width: 100px"></a> -->
               </div>
             </div>
           </div>
         </div>  
       </section>  
-      <!--  added charts -->
-  
-      <!--  added charts -->
-    <section class="features" id="features">
+
+    <!-- <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
           <h2>Unlimited Features, Unlimited Fun</h2>
@@ -195,14 +187,14 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white"> -->
+              <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!
                     <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                    You can hook the "home button" to some JavaScript events or just remove it
                   </div>
                 </div>
               </div>
@@ -213,7 +205,7 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <!-- <i class="icon-screen-smartphone text-primary"></i> -->
+                    <i class="icon-screen-smartphone text-primary"></i>
                     <h3>Device Mockups</h3>
                     <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                   </div>
@@ -246,9 +238,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="cta">
+    <!-- <section class="cta">
       <div class="cta-content">
         <div class="container">
           <h2>Stop waiting.<br>Start building.</h2>
@@ -256,13 +248,13 @@
         </div>
       </div>
       <div class="overlay"></div>
-    </section>
+    </section> -->
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
         <h2>We
           <i class="fas fa-heart"></i>
-          new friends!</h2>
+          Brent Giesbrecht, Marina Urgolites, Ensie Blume, Denise Arellano, Samer Abusaleh!</h2>
         <ul class="list-inline list-social">
           <li class="list-inline-item social-twitter">
             <a href="#">
@@ -285,16 +277,16 @@
 
     <footer>
       <div class="container">
-        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <p>&copy; Team BMEDS. All Rights Reserved.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+            <!-- <a href="#">Privacy</a> -->
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms</a>
+            <!-- <a href="#">Terms</a> -->
           </li>
           <li class="list-inline-item">
-            <a href="#">FAQ</a>
+            <!-- <a href="#">FAQ</a> -->
           </li>
         </ul>
       </div>
